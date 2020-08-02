@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className="row justify-content-center">             
                     <div className="col-auto col-md-auto">
-                        <br/><p>© Copyright 2018 Weather Finder Inc.</p>
+                        <br/><p>© Copyright 2018 Weather Forecast Inc.</p>
                     </div>
                 </div>
             </div>

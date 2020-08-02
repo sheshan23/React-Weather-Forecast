@@ -9,7 +9,7 @@ class Header extends Component {
             <Navbar dark expand="md">
               <div className="container">
                   <NavbarBrand className="mr-auto" href="/">
-                      <h4 className="text-center">Weather Finder</h4>
+                      <h4 className="text-center">Weather Forecast</h4>
                   </NavbarBrand>
               </div>
             </Navbar>
@@ -23,7 +23,7 @@ class Header extends Component {
                     </NavbarBrand>
                   </div>
                   <div className="col-12 col-sm-6">
-                    <h1>Weather Finder</h1>
+                    <h1>Weather Forecast</h1>
                     <p>Enter the city and country name in the below fields and hit the search button to get the current weather at</p>
                   </div>
                 </div>
