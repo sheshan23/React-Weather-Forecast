@@ -1,27 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Footer(props) {
+const Footer = () => {
     return(
         <div className="footer">
             <div className="container">
-                <div className="row justify-content-center">             
-                    <div className="col-8">
-                        <h5>Dhrumil Shah</h5>
-                        <i className="fa fa-phone fa-lg"></i>: +519-991-4992<br />
-                        <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:sdhrumil2605@gmail.com">
-                            sdhrumil2605@gmail.com</a>
+                <div className="row ">             
+                    <div className="col-7 offset-1 col-sm-6 align-self-center">
+                        <address>
+                        <h5 className="">Sheshan Patel</h5>
+                        <i className="fa fa-phone fa-lg"></i>: +647-540-2989<br />
+                        <i className="fa fa-envelope fa-lg"></i>: <a href="patelsheshan0@gmail.com">patelsheshan0@gmail.com</a>
+                        </address>
                     </div>
-                    <div className="col-4 align-self-center">
+                    <div className="col-4 col-sm-5 align-self-center">
                         <div className="text-center">
-                            <a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/dhrumilshah26/" target="_blank"><i className="fa fa-linkedin"></i></a>
-                            <a className="btn btn-social-icon" href="mailto:sdhrumil2605@gmail.com"><i className="fa fa-envelope-o"></i></a>
+                            <a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/sheshanpatel23/" target="_blank"><i className="fa fa-linkedin"></i></a>
+                            <a className="btn btn-social-icon btn-github" href="https://github.com/sheshan23/Weather-Finder" target="_blank"><i className="fa fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="row justify-content-center">             
-                    <div className="col-auto">
-                        <p>© Copyright 2020 Weather Finder</p>
+                    <div className="col-auto col-md-auto">
+                        <br/><p>© Copyright 2018 Weather Finder Inc.</p>
                     </div>
                 </div>
             </div>
