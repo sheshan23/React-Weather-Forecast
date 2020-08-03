@@ -23,7 +23,7 @@ class Header extends Component {
                   </div>
                   <div className="col-12 col-sm-6">
                     <h1>Weather Forecast</h1>
-                    <p>Enter the city and country name in the below fields and hit the search button to get the current weather at</p>
+                    <p>Enter the city and country name in the below fields and hit the search button to get the current weather of particular location</p>
                   </div>
                 </div>
               </div>
